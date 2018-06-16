@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GameNews</string>
+    <string name="txt_title">GAME NEWS</string>
+    <string name="txt_username">Insert username</string>
+    <string name="txt_password">Insert password</string>
+    <string name="hint_user">00117716</string>
+    <string name="btn_text">Login</string>
 </resources>
