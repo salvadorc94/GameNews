@@ -5,4 +5,17 @@
     <string name="txt_password">Insert password</string>
     <string name="hint_user">00117716</string>
     <string name="btn_text">Login</string>
+    <string name="title_activity_news">News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_news">News</string>
+    <string name="txt_lol">League of Legends</string>
+    <string name="txt_DOTA">DOTA</string>
+    <string name="txt_csgo">CS:GO</string>
+    <string name="txt_set">Settings</string>
+    <string name="txt_fav">Favorites</string>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+        <item
+            android:id="@+id/nav_camera"
+            android:title="@string/txt_news" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/txt_lol" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/txt_DOTA" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="@string/txt_csgo" />
+    </group>
+
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/txt_set" />
+        <item
+            android:id="@+id/nav_send"
+            android:title="@string/txt_fav" />
+
+    </group>
+
+
+</menu>

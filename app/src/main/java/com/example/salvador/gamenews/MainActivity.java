@@ -1,5 +1,6 @@
 package com.example.salvador.gamenews;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -57,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onNext(Usuario usuario) {
-
+                        Intent intent = new Intent(getApplicationContext(),News.class);
+                        intent.putExtra("TOKEN",usuario.getToken());
+                        startActivity(intent);
                     }
                 });
 
